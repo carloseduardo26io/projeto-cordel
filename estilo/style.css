@@ -1,0 +1,80 @@
+@charset "UTF-8";
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+ 
+html, body{
+    background-color: darkolivegreen;
+    min-height: 100vw;
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+h1{
+    padding: 5px;
+    font-variant: small-caps;
+    font-size: 10vw;
+}
+p{
+    padding-bottom: 50px
+}
+header a , footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover , footer a:hover{
+    text-decoration: underline;
+}
+section{
+    padding: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-size: 2.5vw;
+}
+section p {
+    padding-bottom: 2em;
+}
+section.imagem > p {
+    background-color: rgba(59, 67, 78, 0.638);
+    width: 400px;
+    text-shadow: 1px 1px 0px black;
+    display: inline-block;
+}
+.normal{
+    background-color: white;
+    color: black;
+   
+
+}
+.imagem{
+    background-color: rgba(152, 148, 144, 0.178);
+    color: white;
+    display: inline-block;
+    padding: 10px;
+    box-shadow:inset 6px 6px 13px rgba(0, 0, 0, 0.374);
+    width: 100vw;
+    background-attachment: fixed;
+   
+}
+ section#img01{
+background-image: url("/modulo002/des12/imagens/background001.jpg");
+background-position: right center;
+background-size: cover;
+}
+#img02{
+background-image: url("/modulo002/des12/imagens/background002.jpg");
+background-size: cover;
+background-position: right center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
